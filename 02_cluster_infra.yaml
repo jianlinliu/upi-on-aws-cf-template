@@ -128,6 +128,10 @@ Resources:
             ".",
             ["api-int", !Ref ClusterName, !Join ["", [!Ref HostedZoneName, "."]]],
           ]
+        Type: A
+        AliasTarget:
+          HostedZoneId: !GetAtt IntApiElb.CanonicalHostedZoneID
+          DNSName: !GetAtt IntApiElb.DNSName
       - Name:
           !Join [
             ".",

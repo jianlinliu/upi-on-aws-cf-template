@@ -1,1 +1,0 @@
-{"clusterName":"jialiu","clusterID":"7dc25314-5443-45c0-8ab7-65d23099d43e","infraID":"jialiu-5tsct","aws":{"region":"us-east-2","identifier":[{"kubernetes.io/cluster/jialiu-5tsct":"owned"},{"openshiftClusterID":"7dc25314-5443-45c0-8ab7-65d23099d43e"}]}}
